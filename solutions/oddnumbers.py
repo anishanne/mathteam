@@ -6,7 +6,7 @@ print("Starting Up")
 num = 14
 n = math.factorial(num)
 count = 0
-print(F"Calclating odd factors for {n}.")
+print(F"Calculating odd factors for {n}.")
 
 for x in range(1, int(n**0.5)+1): # Goes through every number between 1 & the square root of n + 1.
   if n % x == 0: # if n / x (will be every number above) has a remainder of 0, continue
